@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Alamsyah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-700">Alamsyah</h1>
+      <nav>
+        <ul class="flex space-x-6 text-gray-700">
+          <li><a href="#about" class="hover:text-indigo-600">Tentang</a></li>
+          <li><a href="#projects" class="hover:text-indigo-600">Proyek</a></li>
+          <li><a href="#contact" class="hover:text-indigo-600">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-gradient-to-r from-blue-100 to-indigo-100">
+    <h2 class="text-4xl font-bold text-indigo-800 mb-4">Halo, Saya Alamsyah</h2>
+    <p class="text-lg text-gray-700">Web Developer | UI/UX Designer | Freelancer</p>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-4 text-indigo-700">Tentang Saya</h3>
+      <p class="text-gray-700">Saya adalah seorang pengembang web yang berfokus pada pembuatan website interaktif dan responsif. Memiliki pengalaman dalam HTML, CSS, JavaScript, dan framework seperti Laravel serta React.</p>
+    </div>
+  </section>
+
+  <!-- Proyek -->
+  <section id="projects" class="py-16 px-6 bg-gray-50">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-10 text-center text-indigo-700">Proyek Terbaru</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white shadow-md p-6 rounded-xl">
+          <h4 class="text-xl font-bold mb-2">Aplikasi BulkUp</h4>
+          <p class="text-gray-700 mb-2">Platform pelatihan otot dan nutrisi berbasis Laravel + Tailwind.</p>
+          <a href="#" class="text-indigo-600 hover:underline">Lihat Proyek</a>
+        </div>
+        <div class="bg-white shadow-md p-6 rounded-xl">
+          <h4 class="text-xl font-bold mb-2">Website Portfolio UI</h4>
+          <p class="text-gray-700 mb-2">Desain personal portfolio menggunakan HTML, Tailwind, dan animasi.</p>
+          <a href="#" class="text-indigo-600 hover:underline">Lihat Proyek</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="py-16 px-6 bg-white">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-6 text-indigo-700">Hubungi Saya</h3>
+      <form action="https://formspree.io/f/myzpjknz" method="POST" class="space-y-4 text-left">
+        <input type="text" name="name" placeholder="Nama" required class="w-full p-3 border rounded-lg"/>
+        <input type="email" name="email" placeholder="Email" required class="w-full p-3 border rounded-lg"/>
+        <textarea name="message" rows="5" placeholder="Pesan" required class="w-full p-3 border rounded-lg"></textarea>
+        <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-200 text-gray-700">
+    &copy; 2025 Alamsyah. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
